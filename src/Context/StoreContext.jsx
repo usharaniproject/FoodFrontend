@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
     const [cartItems,setCartItems] =useState({});
     const [token,setToken] = useState("");
     const [food_list,setFoodList] = useState([]);
-     const url="http://localhost:4000"
+     const url="https://foodbackend-qlc1.onrender.com"
     //adding to Cart
     const addToCart = async(itemId)=>{
         if(!cartItems[itemId]){
